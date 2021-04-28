@@ -1,0 +1,2139 @@
+{
+  "intents": [
+    {
+      "intent": "AskName",
+      "examples": [
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Who are you?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Compliments",
+      "examples": [
+        {
+          "text": "I enjoy talking to you."
+        },
+        {
+          "text": "I like your hair."
+        },
+        {
+          "text": "I like your room."
+        },
+        {
+          "text": "I like your voice."
+        },
+        {
+          "text": "You are a good friend."
+        },
+        {
+          "text": "You are so cute."
+        },
+        {
+          "text": "You are so funny."
+        },
+        {
+          "text": "You have a nice room."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Covid19",
+      "examples": [
+        {
+          "text": "Coronavirus"
+        },
+        {
+          "text": "covid19"
+        },
+        {
+          "text": "Quarantine"
+        },
+        {
+          "text": "Stay at home."
+        },
+        {
+          "text": "Wear your mask."
+        },
+        {
+          "text": "Work at home."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Eat",
+      "examples": [
+        {
+          "text": "Do you like boba tea?"
+        },
+        {
+          "text": "What did you eat for lunch?"
+        },
+        {
+          "text": "What do you like to eat?"
+        },
+        {
+          "text": "What do you want to eat for dinner?"
+        },
+        {
+          "text": "What do you want to eat for lunch?"
+        },
+        {
+          "text": "What is your favorite food?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Education",
+      "examples": [
+        {
+          "text": "I had Cloud Computing class today."
+        },
+        {
+          "text": "I learned a lot from today's lesson."
+        },
+        {
+          "text": "I want to learn more about AI."
+        },
+        {
+          "text": "What do you learn at school?"
+        },
+        {
+          "text": "What is your favorite subject?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Emotions",
+      "examples": [
+        {
+          "text": "I feel happy."
+        },
+        {
+          "text": "I had a bad day."
+        },
+        {
+          "text": "I'm bored."
+        },
+        {
+          "text": "I'm exited."
+        },
+        {
+          "text": "I'm sad."
+        },
+        {
+          "text": "I'm so hungry."
+        },
+        {
+          "text": "I'm so tired today."
+        },
+        {
+          "text": "I need you."
+        },
+        {
+          "text": "I want to cry."
+        },
+        {
+          "text": "I want to die."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Good afternoon!"
+        },
+        {
+          "text": "Good evening!"
+        },
+        {
+          "text": "Good morning!"
+        },
+        {
+          "text": "Good night!"
+        },
+        {
+          "text": "Hello!"
+        },
+        {
+          "text": "Hi!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HowAreYou",
+      "examples": [
+        {
+          "text": "Hey, what's up?"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "How was your day?"
+        },
+        {
+          "text": "How you doin'?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Interests",
+      "examples": [
+        {
+          "text": "Do you exercise?"
+        },
+        {
+          "text": "Do you like to watch Korean drama?"
+        },
+        {
+          "text": "Do you like to watch YouTube?"
+        },
+        {
+          "text": "I love to play volleyball."
+        },
+        {
+          "text": "What are your interests?"
+        },
+        {
+          "text": "What cartoon to you like?"
+        },
+        {
+          "text": "What do you like to do?"
+        },
+        {
+          "text": "What kind of music do you listen to?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Joke",
+      "examples": [
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "I want to hear a joke."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Love",
+      "examples": [
+        {
+          "text": "I love you."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Personal",
+      "examples": [
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How tall are you?"
+        },
+        {
+          "text": "What's your age?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where do you live?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Questions",
+      "examples": [
+        {
+          "text": "Do yo like to play basketball?"
+        },
+        {
+          "text": "Do you have a pet?"
+        },
+        {
+          "text": "Do you like animals?"
+        },
+        {
+          "text": "Have you heard of this singer?"
+        },
+        {
+          "text": "Have you seen this movie before?"
+        },
+        {
+          "text": "What do you do in your free time?"
+        },
+        {
+          "text": "What do you like to do?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Relationship",
+      "examples": [
+        {
+          "text": "Are you single?"
+        },
+        {
+          "text": "Do you have a boyfriend?"
+        },
+        {
+          "text": "Do you have a crush on someone?"
+        },
+        {
+          "text": "Do you have a girlfriend?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "Thanks."
+        },
+        {
+          "text": "Thanks for your help."
+        },
+        {
+          "text": "Thank you."
+        },
+        {
+          "text": "Thank you for being so nice to me."
+        },
+        {
+          "text": "Thank you for your time."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ThingsToShare",
+      "examples": [
+        {
+          "text": "I found a great restaurant yesterday."
+        },
+        {
+          "text": "I have a final next week."
+        },
+        {
+          "text": "I have lots of homework to do."
+        },
+        {
+          "text": "I met a cute guy this morning."
+        },
+        {
+          "text": "There are lots of quizzes coming up."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "User",
+      "examples": [
+        {
+          "text": "I am 22 years old."
+        },
+        {
+          "text": "I am a girl."
+        },
+        {
+          "text": "I am a student."
+        },
+        {
+          "text": "I'm Karen."
+        },
+        {
+          "text": "I study in Taiwan Tech."
+        },
+        {
+          "text": "My name is Leo."
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Animals",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dog",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hamster",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rabbit",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Daily",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cute guy",
+          "synonyms": [
+            "cute girl"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "homework",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "quiz",
+          "synonyms": [
+            "final",
+            "midterm",
+            "test"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "restaurant",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Education",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "I had class",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "internship",
+          "synonyms": [
+            "intern"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I want to learn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "What do you learn at school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "your favorite subject",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Feelings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Angry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bored",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Happy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hungry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tired",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Food",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Breakfast",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "did you eat",
+          "synonyms": [
+            "did you have"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dinner",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "do you like",
+          "synonyms": [
+            "do you like to eat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Drinks",
+          "synonyms": [
+            "Coffee",
+            "Coke",
+            "Tea",
+            "Water"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fried rice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hamburger",
+          "synonyms": [
+            "French fries",
+            "Sandwich"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "like to eat",
+          "synonyms": [
+            "love to eat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lunch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Meat",
+          "synonyms": [
+            "Beef",
+            "Pork"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Noodles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pasta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Soup",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Interests",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Game",
+          "synonyms": [
+            "Switch"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Music",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Read",
+          "synonyms": [
+            "books",
+            "comic books",
+            "novels"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Shopping",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sleep",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sports",
+          "synonyms": [
+            "badminton",
+            "baseball",
+            "basketball",
+            "jogging",
+            "running",
+            "swimming",
+            "tennis",
+            "volleyball"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Travel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Watch movie",
+          "synonyms": [
+            "movie",
+            "Netflix",
+            "watch TV",
+            "Youtube"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "what is your hobby",
+          "synonyms": [
+            "what do you like to do"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Names",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Athena",
+          "synonyms": [
+            "Alan",
+            "Andy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ben",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cindy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "David",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eason",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flora",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Howard",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Irene",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jerry",
+          "synonyms": [
+            "Jason",
+            "Jessica",
+            "John"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Karen",
+          "synonyms": [
+            "Kelly"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lisa",
+          "synonyms": [
+            "Leo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mike",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Timmy",
+          "synonyms": [
+            "Tom"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "Nope"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "Yeah"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "SelfInfo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "age",
+          "synonyms": [
+            "old",
+            "years old"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "country",
+          "synonyms": [
+            "city",
+            "live",
+            "place",
+            "where are you from"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "do you have a pet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "do you like animals",
+          "synonyms": [
+            "do you like cats",
+            "do you like dogs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "favorite animal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "height",
+          "synonyms": [
+            "tall"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Weather",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cold",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fall",
+          "synonyms": [
+            "Autumn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hot",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rain",
+          "synonyms": [
+            "raining"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Spring",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Summer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Warm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Winter",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I don't understand."
+              },
+              {
+                "text": "Can you say that again?"
+              },
+              {
+                "text": "I don't get it."
+              },
+              {
+                "text": "Sorry, I didn't hear you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1606921163887",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1606799355315",
+      "context": {
+        "Names": "@Names"
+      },
+      "conditions": "@Names",
+      "event_name": "input",
+      "dialog_node": "handler_6_1606799355328"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1606799355315",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1606799355328",
+      "previous_sibling": "handler_6_1606799355328"
+    },
+    {
+      "type": "standard",
+      "title": "Relationship",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm single. T^T"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Relationship",
+      "dialog_node": "node_10_1606923412373",
+      "previous_sibling": "node_8_1606980588855"
+    },
+    {
+      "type": "standard",
+      "title": "Covid19",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I hate coronavirus!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Covid19",
+      "dialog_node": "node_10_1608563765762",
+      "previous_sibling": "node_4_1607392604551"
+    },
+    {
+      "type": "standard",
+      "title": "Interest",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Interests",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1606807815847",
+      "previous_sibling": "node_9_1608562852494"
+    },
+    {
+      "type": "standard",
+      "title": "Joke",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Why are ghosts such bad liars? Because they are easy to see through."
+              },
+              {
+                "text": "What did one plate say to his friend? Tonight, dinner's on me!"
+              },
+              {
+                "text": "Why was six afraid of seven? Because seven ate nine."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Joke",
+      "dialog_node": "node_2_1609206569932",
+      "previous_sibling": "node_9_1606792361918"
+    },
+    {
+      "type": "standard",
+      "title": "Personal questions",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Personal || #Questions",
+      "dialog_node": "node_3_1606809632846",
+      "previous_sibling": "node_2_1606807815847"
+    },
+    {
+      "type": "standard",
+      "title": "School",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Education",
+      "dialog_node": "node_3_1608564151291",
+      "previous_sibling": "node_5_1606920118928"
+    },
+    {
+      "type": "standard",
+      "title": "Ask name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm Yu Mei!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#AskName",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1606807653674",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Things to share",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#ThingsToShare",
+      "dialog_node": "node_4_1607392604551",
+      "previous_sibling": "node_3_1608564151291"
+    },
+    {
+      "type": "frame",
+      "title": "Introduction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi! $Names. Nice to meet you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "#User",
+      "dialog_node": "node_5_1606798836755"
+    },
+    {
+      "type": "standard",
+      "title": "How are you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great. Thanks for asking."
+              },
+              {
+                "text": "I'm fine. You?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#HowAreYou",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1606800249953",
+      "previous_sibling": "node_4_1606807653674"
+    },
+    {
+      "type": "standard",
+      "title": "Weather",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Weather",
+      "dialog_node": "node_5_1606920118928",
+      "previous_sibling": "node_10_1606923412373"
+    },
+    {
+      "type": "standard",
+      "title": "Event",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How was your day?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#User",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1606921163887",
+      "previous_sibling": "node_10_1608563765762"
+    },
+    {
+      "type": "standard",
+      "title": "Joke",
+      "parent": "node_9_1606792361918",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Feelings:Bored || @Response",
+      "dialog_node": "node_7_1606804830684"
+    },
+    {
+      "type": "standard",
+      "title": "Eat",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Eat",
+      "dialog_node": "node_8_1606980588855",
+      "previous_sibling": "node_3_1606809632846"
+    },
+    {
+      "type": "standard",
+      "title": "Share feelings",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Feelings || #Emotions || #Love",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1606792361918",
+      "previous_sibling": "node_5_1606800249953"
+    },
+    {
+      "type": "standard",
+      "title": "Compliments",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Compliments",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1606803806934",
+      "previous_sibling": "node_2_1609206569932"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Thanks",
+      "dialog_node": "node_9_1608562852494",
+      "previous_sibling": "node_9_1606803806934"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You should get some rest."
+              },
+              {
+                "text": "How come?"
+              },
+              {
+                "text": "You should get a coffee."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1606792361918",
+      "conditions": "@Feelings:Tired",
+      "dialog_node": "response_10_1606792666053",
+      "previous_sibling": "response_3_1606792503404"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What happened?"
+              },
+              {
+                "text": "Is there anything I can do for you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606792361918",
+      "conditions": "@Feelings:Angry",
+      "dialog_node": "response_10_1606792888466",
+      "previous_sibling": "response_6_1606792821052"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1606800249953",
+      "disabled": true,
+      "dialog_node": "response_10_1606800505204"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I like to watch comedies."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606807815847",
+      "conditions": "@Interests:(Watch movie)",
+      "dialog_node": "response_10_1606809550129",
+      "previous_sibling": "response_6_1606809532103"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That sounds difficult..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1608564151291",
+      "conditions": "@Education:(I had class)",
+      "dialog_node": "response_10_1608564450699",
+      "previous_sibling": "response_1_1608564432033"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me, too. Still hasn't finish it yet."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607392604551",
+      "conditions": "@Daily:homework",
+      "dialog_node": "response_1_1607392631460"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cool. I'd love to go there sometime."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607392604551",
+      "conditions": "@Daily:restaurant",
+      "dialog_node": "response_1_1607392710071",
+      "previous_sibling": "response_2_1607392688578"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sounds cool!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1608564151291",
+      "conditions": "@Education:(I want to learn)",
+      "dialog_node": "response_1_1608564432033",
+      "previous_sibling": "response_9_1608564376121"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I usually listen to pop music."
+              },
+              {
+                "text": "I like KPOP."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606807815847",
+      "conditions": "@Interests:Music",
+      "dialog_node": "response_2_1606809404275",
+      "previous_sibling": "response_3_1606809483458"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I have a cat!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606809632846",
+      "conditions": "@SelfInfo:(do you have a pet)",
+      "dialog_node": "response_2_1606809693237"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How about having an ice cream?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1606920118928",
+      "conditions": "@Weather:Hot",
+      "dialog_node": "response_2_1606920151555"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I want to go to KFC."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606980588855",
+      "conditions": "@Food:Dinner",
+      "dialog_node": "response_2_1606980608936"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I had noodle soup, yummy!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606980588855",
+      "conditions": "@Food:(did you eat)",
+      "dialog_node": "response_2_1606980742045",
+      "previous_sibling": "response_7_1606980628397"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I love sushi!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606980588855",
+      "conditions": "@Food:(like to eat)",
+      "dialog_node": "response_2_1606981586031",
+      "previous_sibling": "response_2_1606980742045"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poor you. Wish you good luck."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607392604551",
+      "conditions": "@Daily:quiz",
+      "dialog_node": "response_2_1607392688578",
+      "previous_sibling": "response_1_1607392631460"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can I do anything for you?"
+              },
+              {
+                "text": "Do you want to talk about it?"
+              },
+              {
+                "text": "What's wrong?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1606792361918",
+      "conditions": "@Feelings:Sad",
+      "dialog_node": "response_3_1606792503404",
+      "previous_sibling": "node_7_1606804830684"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I like outdoor activities."
+              },
+              {
+                "text": "I love to watch Netflix!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1606807815847",
+      "conditions": "@Interests:(what is your hobby)",
+      "dialog_node": "response_3_1606809483458"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The weather is nice today."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1606920118928",
+      "conditions": "@Weather:Warm",
+      "dialog_node": "response_3_1606920498479",
+      "previous_sibling": "response_9_1606920344467"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to hear a joke?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606792361918",
+      "conditions": "@Feelings:Bored",
+      "dialog_node": "response_4_1606804487918",
+      "previous_sibling": "response_7_1606792978938"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Why are ghosts such bad liars? Because they are easy to see through."
+              },
+              {
+                "text": "What did one plate say to his friend? Tonight, dinner's on me!"
+              },
+              {
+                "text": "Why was six afraid of seven? Because seven ate nine."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1606804830684",
+      "conditions": "@Response:Yes",
+      "dialog_node": "response_4_1606804976107"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1609206569932",
+      "disabled": true,
+      "dialog_node": "response_4_1609206590241"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good for you!"
+              },
+              {
+                "text": "I'm so happy for you!"
+              },
+              {
+                "text": "Nice to hear that!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1606792361918",
+      "conditions": "@Feelings:Happy",
+      "dialog_node": "response_6_1606792821052",
+      "previous_sibling": "response_10_1606792666053"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I like to play volleyball."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606807815847",
+      "conditions": "@Interests:Sports",
+      "dialog_node": "response_6_1606809532103",
+      "previous_sibling": "response_2_1606809404275"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Go study!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1606804830684",
+      "conditions": "true",
+      "dialog_node": "response_6_1606810630310",
+      "previous_sibling": "response_7_1606805021151"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It would be nice to have a hot pot."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1606920118928",
+      "conditions": "@Weather:Cold",
+      "dialog_node": "response_6_1606920247543",
+      "previous_sibling": "response_2_1606920151555"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good luck! I know you can do a great job there."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1608564151291",
+      "conditions": "@Education:internship",
+      "dialog_node": "response_6_1608566342373",
+      "previous_sibling": "response_10_1608564450699"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You should get something to eat."
+              },
+              {
+                "text": "You can go to Gong Guan night market later."
+              },
+              {
+                "text": "Go buy some food at 3rd cafeteria."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1606792361918",
+      "conditions": "@Feelings:Hungry",
+      "dialog_node": "response_7_1606792978938",
+      "previous_sibling": "response_10_1606792888466"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok then."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1606804830684",
+      "conditions": "@Response:No",
+      "dialog_node": "response_7_1606805021151",
+      "previous_sibling": "response_4_1606804976107"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I don't want to tell you!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606809632846",
+      "conditions": "@SelfInfo:height",
+      "dialog_node": "response_7_1606809818578",
+      "previous_sibling": "response_8_1606983220508"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maybe 7-11."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606980588855",
+      "conditions": "@Food:Lunch",
+      "dialog_node": "response_7_1606980628397",
+      "previous_sibling": "response_2_1606980608936"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OMG!! From what department?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607392604551",
+      "conditions": "@Daily:(cute guy)",
+      "dialog_node": "response_7_1607392772779",
+      "previous_sibling": "response_1_1607392710071"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I like English!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1608564151291",
+      "conditions": "@Education:(your favorite subject)",
+      "dialog_node": "response_7_1608564348059"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am 17 years old."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606809632846",
+      "conditions": "@SelfInfo:age",
+      "dialog_node": "response_8_1606920041965",
+      "previous_sibling": "response_9_1606919871631"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Love you, too."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606792361918",
+      "conditions": "#Love",
+      "dialog_node": "response_8_1606922992424",
+      "previous_sibling": "response_4_1606804487918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NO!"
+              },
+              {
+                "text": "YES!"
+              },
+              {
+                "text": "So so..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1606980588855",
+      "conditions": "@Food:(do you like)",
+      "dialog_node": "response_8_1606982181110",
+      "previous_sibling": "response_2_1606981586031"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606809632846",
+      "conditions": "@SelfInfo:(do you like animals)",
+      "dialog_node": "response_8_1606983220508",
+      "previous_sibling": "response_9_1606983195756"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I live in Japan."
+              },
+              {
+                "text": "I am a Japanese."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1606809632846",
+      "conditions": "@SelfInfo:country",
+      "dialog_node": "response_9_1606919871631",
+      "previous_sibling": "response_7_1606809818578"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I don't like rainy days."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1606920118928",
+      "conditions": "@Weather:Rain",
+      "dialog_node": "response_9_1606920344467",
+      "previous_sibling": "response_6_1606920247543"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I love cat!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606809632846",
+      "conditions": "@SelfInfo:(favorite animal)",
+      "dialog_node": "response_9_1606983195756",
+      "previous_sibling": "response_2_1606809693237"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I learn math, Japanese, English, Science..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1608564151291",
+      "conditions": "@Education:(What do you learn at school)",
+      "dialog_node": "response_9_1608564376121",
+      "previous_sibling": "response_7_1608564348059"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1606798836755",
+      "variable": "$Names",
+      "dialog_node": "slot_8_1606799355315"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi!"
+              },
+              {
+                "text": "Hello. Nice to meet you."
+              },
+              {
+                "text": "Hi! I'm Yu Mei."
+              },
+              {
+                "text": "Hello. What's your name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Greetings || welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Yes."
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Chat in English",
+  "language": "en",
+  "description": "English conversation"
+}

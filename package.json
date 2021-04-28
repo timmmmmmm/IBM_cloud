@@ -1,0 +1,36 @@
+{
+  "name": "project-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Irene Chou",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "express-secure-only": "^0.2.1",
+    "fetch": "^1.1.0",
+    "ibm-watson": "^5.7.1",
+    "jsonfile": "^6.1.0",
+    "node-audiorecorder": "^2.2.0",
+    "node-ffprobe": "^3.0.0",
+    "path": "^0.12.7",
+    "prompt": "^1.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0",
+    "util": "^0.12.3",
+    "vcap_services": "^0.7.1",
+    "watson-speech": "^0.38.1",
+    "whatwg-fetch": "^3.5.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

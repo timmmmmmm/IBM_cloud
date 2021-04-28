@@ -1,0 +1,12 @@
+applications:
+  - path: .
+    name: project-109
+    environment_json: {}
+    memory: 64M
+    instances: 1
+    disk_quota: 1024M
+    services: 
+       - Speech to Text-ny
+       - Text to Speech-8a
+       - Watson Assistant-1f
+      

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<title>
+			Somnambulism
+		</title>
+
+		<style>
+
+			body {
+			  background-color: #F8E0E0;
+			}
+
+			img {
+				display: block;
+				margin: auto;
+				margin-top: 10px;
+				border:10px ;
+				box-shadow: 5px 10px #888888;
+			}
+      video {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        border:10px ;
+        box-shadow: 5px 10px #888888;
+      }
+
+			button {
+				display: inline;
+				padding: 15px 25px;
+				font-size: 24px;
+				cursor: pointer;
+				text-align: center;
+				text-decoration: none;
+				outline: none;
+				color: #fff;
+				background-color: #F79F81;
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 9px #999;
+			}
+
+			button:hover {background-color: #F78181}
+
+			button:active {
+				background-color: #F78181;
+				box-shadow: 0 5px #666;
+				transform: translateY(4px);
+      }
+
+      textarea {
+        display: block;
+        margin: auto;
+      }
+
+		</style>
+
+	</head>
+	<body>
+
+    <video id="img1" width="840" height="475" autoplay="autoplay" loop="true">
+      <source src="image/Rin_3.mp4" type="video/mp4">
+    </video>
+
+    <video id="img2" width="840" height="475" autoplay="autoplay" loop="true">
+      <source src="image/Rin_gift.mp4" type="video/mp4">
+    </video>
+
+    <video id="img3" width="840" height="475" autoplay="autoplay" loop="true">
+      <source src="image/Rin_talk.mp4" type="video/mp4">
+    </video>
+
+    <video id="img4" width="840" height="475" autoplay="autoplay" loop="true">
+      <source src="image/Rino_3.mp4" type="video/mp4">
+    </video>
+
+    <video id="img5" width="840" height="475" autoplay="autoplay" loop="true">
+      <source src="image/Rino_gift.mp4" type="video/mp4">
+    </video>
+
+    <video id="img6" width="840" height="475" autoplay="autoplay" loop="true">
+      <source src="image/Rino_talk.mp4" type="video/mp4">
+    </video>
+    
+  	<br>
+    <div class="form-group">
+      <textarea id="output" class="form-control" style="width:840px;height: 40px" ></textarea>
+    </div>
+    <br>
+  	<button id="chat1" type="button" style="position: relative;left: 20%">START</button>
+  	<button id="record1" type="button" style="position: relative;left: 30%">STOP</button>
+  	<button id="gift1" type="button" style="position: relative;left: 40%">GIFT</button>
+  	<button id="boy" type="button" style="position: relative;left: 50%">BOY</button>
+  	<button id="chat2" type="button" style="position: relative;left: 20%">START</button>
+  	<button id="record2" type="button" style="position: relative;left: 30%">STOP</button>
+  	<button id="gift2" type="button" style="position: relative;left: 40%">GIFT</button>
+  	<button id="girl" type="button" style="position: relative;left: 50%">GIRL</button>
+
+  	
+
+
+
+  	<script >
+  		$("#img2").hide();
+  		$("#img3").hide();
+  		$("#img4").hide();
+  		$("#img5").hide();
+  		$("#img6").hide();
+  		$("#chat2").hide();
+  		$("#record2").hide();
+  		$("#gift2").hide();
+  		$("#girl").hide();
+  		$(document).ready(function(){
+  			$("#gift1").click(function(){
+      			$("#img1").hide();
+      			$("#img2").show();
+      			setTimeout(function() {
+      				$("#img2").hide();
+      				$("#img1").show();
+      			}, 7000);
+    			});
+    			$("#record1").click(function(){
+      			$("#img1").hide();
+      			$("#img3").show();
+      			setTimeout(function() {
+      				$("#img3").hide();
+      				$("#img1").show();
+      			}, 8500);
+    			});
+    			$("#gift2").click(function(){
+      			$("#img4").hide();
+      			$("#img5").show();
+      			setTimeout(function() {
+      				$("#img5").hide();
+      				$("#img4").show();
+      			}, 5000);
+    			});
+    			$("#record2").click(function(){
+      			$("#img4").hide();
+      			$("#img6").show();
+      			setTimeout(function() {
+      				$("#img6").hide();
+      				$("#img4").show();
+      			}, 7000);
+    			});
+    		$("#boy").click(function(){
+      			$("#img1").hide();
+      			$("#img4").show();
+				$("#chat1").hide();
+				$("#record1").hide();
+      			$("#gift1").hide();
+      			$("#boy").hide();
+				$("#chat2").show();
+				$("#record2").show();
+      			$("#gift2").show();
+      			$("#girl").show();
+    			});
+    		$("#girl").click(function(){
+      			$("#img4").hide();
+      			$("#img1").show();
+				$("#chat2").hide();
+				$("#record2").hide();
+      			$("#gift2").hide();
+      			$("#girl").hide();
+				$("#chat1").show();
+				$("#record1").show();
+      			$("#gift1").show();
+      			$("#boy").show();
+    			});
+  		});
+
+
+
+
+
+
+
+  		// irene
+  		document.querySelector('#chat1').onclick = function () {
+
+        	fetch('/api/speech-to-text/token')
+            .then(function (response) {
+              var text = response.json();
+              return text;
+
+            })
+            .then(function (token) {
+              var stream = WatsonSpeech.SpeechToText.recognizeMicrophone(Object.assign(token, { // eslint-disable-line
+                outputElement: '#output' // CSS selector or DOM Element
+              }));
+
+              stream.on('error', function (err) {
+                console.log(err);
+              });
+
+              document.querySelector('#record1').onclick = function () {
+                // stream.createWriteStream('transcription.txt');
+                stream.stop();
+                var txt = document.getElementById('output').value;
+                var xhr = new XMLHttpRequest();
+                var data = {
+                  text: txt
+                };
+                xhr.open('POST', '/data');
+                xhr.onload = function (data) {
+                  console.log('loaded', this.responseText);
+                };
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.send(JSON.stringify(data));
+                document.getElementById('output').value ='';
+
+                setTimeout(function () {
+                  fetch('/return')
+                    .then(res => {
+                      return res.text(); // 使用 text() 可以得到純文字 String
+                    }).then(result => {
+                      console.log('123: ', result);// 得到「你的名字是：oxxo，年紀：18 歲。」
+                      TTS(result);
+                    });
+                }, 800);
+              };
+            })
+            .catch(function (error) {
+              console.log(error);
+            });
+		};
+		
+		document.querySelector('#chat2').onclick = function () {
+
+			fetch('/api/speech-to-text/token')
+			.then(function (response) {
+				var text = response.json();
+				return text;
+			})
+			.then(function (token) {
+				var stream = WatsonSpeech.SpeechToText.recognizeMicrophone(Object.assign(token, { // eslint-disable-line
+				outputElement: '#output' // CSS selector or DOM Element
+			}));
+
+				stream.on('error', function (err) {
+					console.log(err);
+				});
+
+				document.querySelector('#record2').onclick = function () {
+					// stream.createWriteStream('transcription.txt');
+					stream.stop();
+					var txt = document.getElementById('output').value;
+					var xhr = new XMLHttpRequest();
+					var data = {
+						text: txt
+					};
+					xhr.open('POST', '/data');
+					xhr.onload = function (data) {
+						console.log('loaded', this.responseText);
+					};
+					xhr.setRequestHeader('Content-Type', 'application/json');
+					xhr.send(JSON.stringify(data));
+					document.getElementById('output').value ='';
+
+					setTimeout(function () {
+						fetch('/return')
+						.then(res => {
+							return res.text(); // 使用 text() 可以得到純文字 String
+						}).then(result => {
+							console.log('123: ', result);// 得到「你的名字是：oxxo，年紀：18 歲。」
+							TTS(result);
+						});
+					}, 800);
+				};
+			})
+			.catch(function (error) {
+				console.log(error);
+			});
+		};
+
+        function TTS(comment) {
+          fetch('/api/text-to-speech/token')
+            .then(function (response) {
+              return response.json();
+            })
+            .then(function (token) {
+              const audio = WatsonSpeech.TextToSpeech.synthesize(Object.assign(token, {
+                text: comment,
+                voice: 'en-US_AllisonVoice',
+			  }));
+              audio.onerror = function (err) {
+                console.log('audio error: ', err);
+              };
+            });
+        }
+  	</script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/watson-speech/dist/watson-speech.js"></script>
+    <!-- window.fetch pollyfill for IE/Edge & Older Chrome/FireFox -->
+	<script src="scripts/whatwg-fetch/dist/fetch.umd.js"></script>
+	
+
+	</body>
+</html>
